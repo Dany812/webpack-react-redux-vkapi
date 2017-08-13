@@ -1,0 +1,143 @@
+html, body  {
+  background: #E6E6FA;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*end reset*/
+ 
+
+.app {
+  margin: 50px;
+  font: 14px sans-serif;
+}
+ 
+
+ .bg_cl { 
+ background-color:  #7B68EE;
+ position: relative;
+ -webkit-animation-name: example; /* Chrome, Safari, Opera */
+ -webkit-animation-duration: 3s; /* Chrome, Safari, Opera */
+ animation-name: example;
+ animation-duration: 3s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+ 0% {opacity: 0;}
+ 25% {opacity: 0.3;} 
+ 50% {opacity:0.5;}
+ 75% {opacity:0.7;}
+ 100% {opacity:1;}
+}
+
+/* Standard */
+@keyframes example {
+ 0% {opacity: 0;}
+ 25% {opacity: 0.3;} 
+ 50% {opacity:0.5;}
+ 75% {opacity:0.7;}
+ 100% {opacity:1;}
+}
+
+.btn_in {
+    border-radius: 40%; 
+    transition: margin-left 4s;
+    box-shadow: 0 0 0.2em #666; 
+    border: 3px solid #D8BFD8;  
+    width: 250px;
+    font-size: 2.7em;
+    color:#E6E6FA;
+    letter-spacing: 0.3em;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    outline: none;
+}
+.btn_in:hover {
+    background-color:   #6A5ACD ;
+}
+
+
+
+.error {
+  color: #FF0000;
+}
+.btn_exit{ 
+  margin-top: 1em;
+  margin-bottom: 1em;
+  outline: none;
+
+}
+
+.user_id{
+  text-align: right; 
+  font-size: 1em;
+  color:#778899;
+}
+.user_name{ 
+  font-size: 1.5em;
+  color:#000000;
+  letter-spacing: 0.1em;
+  text-align: center; 
+}
+.status{
+  float:left;
+  text-align: left;
+  color:#778899;
+}
+.id_friends{
+
+  text-align: right; 
+  font-size: 0.9em;
+  color:#778899;
+}
+.friend_name{
+  font-weight:bold;
+  letter-spacing: 0.02em;
+  color:  #2A5885;
+} 
+.view{
+  color: #2A5885;
+  margin-top: 2.5%;
+  font-weight:bold;
+
+}
+.inf_clr{
+  color: #42648B;
+
+}
+.btn_view{
+  margin-top: 2%;
+}
