@@ -53,10 +53,12 @@ export default class Friends extends Component {
             <Col md={5}>
              <p className='view'> Показано 5 случайных друзей</p>
             </Col>
-            <Col  md={5}>
-              <div className='btn_friend'><Button  onClick={this.props.friendLoad}>
+            <Col  md={12}>
+            <ButtonGroup vertical block>
+               <Button  onClick={this.props.friendLoad}>
                 Показать 5 других случайных друзей
-              </Button></div>
+              </Button> 
+            </ButtonGroup> 
             </Col>
           </Panel>
           </Row>

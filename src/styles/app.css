@@ -132,6 +132,7 @@ table {
   color: #2A5885;
   margin-top: 2.5%;
   font-weight:bold;
+  text-align: center;
 
 }
 .inf_clr{
@@ -140,7 +141,4 @@ table {
 }
 .btn_view{
   margin-top: 2%;
-}
-.btn_friend{
-  float:right;
 }
