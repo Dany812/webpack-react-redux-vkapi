@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.get("/", function(req, res) {
   res.sendFile(__dirname + '/index.html')
 })
-
+app.set('port', (process.env.PORT || 3000));
 app.listen(port, function(error) {
   if (error) {
     console.error(error)
