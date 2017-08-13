@@ -54,9 +54,9 @@ export default class Friends extends Component {
              <p className='view'> Показано 5 случайных друзей</p>
             </Col>
             <Col  md={5}>
-              <Button className='btn_friend' onClick={this.props.friendLoad}>
+              <div className='btn_friend'><Button  onClick={this.props.friendLoad}>
                 Показать 5 других случайных друзей
-              </Button>
+              </Button></div>
             </Col>
           </Panel>
           </Row>
