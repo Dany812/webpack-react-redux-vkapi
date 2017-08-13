@@ -141,3 +141,6 @@ table {
 .btn_view{
   margin-top: 2%;
 }
+.btn_friend{
+  float:right;
+}

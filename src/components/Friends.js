@@ -50,10 +50,10 @@ export default class Friends extends Component {
         <Panel collapsible expanded={this.state.open}>
           <Row>
           <Panel  >
-            <Col md={6}>
+            <Col md={5}>
              <p className='view'> Показано 5 случайных друзей</p>
             </Col>
-            <Col  md={3}>
+            <Col  md={5}>
               <Button className='btn_friend' onClick={this.props.friendLoad}>
                 Показать 5 других случайных друзей
               </Button>
