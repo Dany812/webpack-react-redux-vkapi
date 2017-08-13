@@ -50,7 +50,7 @@ export default class Friends extends Component {
         <Panel collapsible expanded={this.state.open}>
           <Row>
           <Panel  >
-            <Col md={7}>
+            <Col md={6}>
              <p className='view'> Показано 5 случайных друзей</p>
             </Col>
             <Col  md={3}>
