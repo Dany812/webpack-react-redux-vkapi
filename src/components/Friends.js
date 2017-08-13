@@ -24,7 +24,7 @@ export default class Friends extends Component {
                 <Col md={3}>
                   <Image src={frend.photo_100} circle />
                 </Col>
-                <Col md={9}>
+                <Col md={4}>
                   <p className='friend_name'>{frend.first_name} {frend.last_name}</p>
                   пол:<span className='inf_clr'> {frend.sex}</span>
                 </Col>
