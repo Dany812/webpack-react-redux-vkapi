@@ -45,7 +45,7 @@ export function handleLogin() {
       if (res.status === 'connected') {
         UserData(dispatch)
       }
-    }, 4194314 )
+    }, 2 )
 
   }
 

@@ -68,7 +68,7 @@ export default class User extends Component {
                 </Grid>
 
     } else {
-      template = <div className='ent '><button className='btn_in bg_cl' onClick={this.props.handleLogin}>SIGN IN</button></div>
+      template = <div className='ent '><button className='btn_in bg_cl' onClick={this.props.handleLogin}>Авторизоваться</button></div>
     }
 
     return <div >
