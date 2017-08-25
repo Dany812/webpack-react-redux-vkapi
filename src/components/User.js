@@ -2,6 +2,7 @@ import React, { PropTypes, Component } from 'react'
 import Friends from './Friends'
 import { Button, Grid,Row,Col,Panel,Navbar,Image,Table,ButtonGroup } from 'react-bootstrap';
 
+
 export default class User extends Component {
 
   componentWillMount() {
@@ -85,3 +86,16 @@ User.propTypes = {
   handleLogin: PropTypes.func.isRequired,
   error: PropTypes.string.isRequired
 } 
+
+
+
+/*
+<Col xs={4} xsOffset={4}>
+                  <Panel>
+                    <Image src='http://www.danceitalia.it/wp-content/uploads/2014/12/1393885462_vkontakte-vkontakte-logotip-vk-vkontakte-logo-vk-vkontakte-logo-fon-42713158291-650x375.jpg' responsive />
+                    <ButtonGroup vertical block>
+                      <Button bsStyle='primary' className='btn_in_vk' onClick={this.props.handleLogin}>Авторизоваться</Button> 
+                    </ButtonGroup>
+                  </Panel> 
+                </Col>
+*/
